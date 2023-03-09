@@ -1,0 +1,27 @@
+
+html{
+    font-size:12px;
+}
+
+.blog-title{
+    height:6rem;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    background:rgb(204, 200, 200);
+    padding:2rem 0;
+}
+
+.blog-title1{
+    font-size:1.5rem;
+    margin-bottom:0.5rem;
+}
+
+.blog-title2{
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.blog-paragraph{
+    
+}

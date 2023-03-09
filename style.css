@@ -1,0 +1,1147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Custom Styles */
+/**,*::before,*::after{
+    box-sizing:border-box;
+}*/
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    font-size: 12px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.logo-1 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.container {
+    max-width: 95rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.head-flex {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(114, 101, 98);
+    height: 4rem;
+    align-items: center;
+}
+
+li {
+    margin-left: 1.5rem;
+}
+
+.nav-flex {
+    display: flex;
+    font-weight: bold;
+    position: relative;
+}
+
+.title-1 {
+    font-size: 2.5rem;
+    color: white;
+    margin: 1rem 0;
+    font-weight: bolder;
+}
+
+.title-sub {
+    font-size: 1.75rem;
+    color: white;
+}
+
+li:hover {
+    color: red;
+}
+
+.image-hero {
+    background: linear-gradient(to right, rgba(103, 93, 93, 0.3), rgba(103, 93, 93, 0.3)), url("assets/media/hero-bg.jpg") center center no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+.content-flex {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    margin-bottom: 3rem;
+}
+
+.drop {
+    display: flex;
+}
+
+.drop-icon {
+    margin-left: 0.4rem;
+}
+
+.drop-options {
+    position: absolute;
+    bottom: -10.10rem;
+    right: 1.5rem;
+    background: red;
+    color: white;
+    width: 10rem;
+    z-index: 4;
+    padding: 1rem 1rem;
+    display: none;
+}
+
+.drop-options li {
+    margin-bottom: 1rem;
+}
+
+/* Secton 1*/
+
+.question {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+.paragraph {
+    line-height: 1.5;
+    margin: 2rem 0;
+}
+
+.section1 {
+    position: relative;
+}
+
+/* Section 2 */
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    bottom: -18%;
+    left: 5%;
+}
+
+.box-1 {
+    width: 30%;
+    background: rgb(234, 84, 51);
+    color: white;
+    padding: 1.5rem 1.5rem;
+}
+
+.box-2 {
+    width: 15%;
+    padding: 1.5rem 1.5rem;
+    background: white;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    height: 80%;
+    box-shadow: 0.1rem 0.1rem 1rem 0.4rem rgba(197, 190, 190, 0.3);
+    text-align: center;
+}
+
+
+.icon {
+    font-size: 3rem;
+    color: rgb(234, 84, 51);
+}
+
+.box-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+
+.paragraph-2 {
+    color: rgb(156, 154, 154);
+}
+
+.button-1 {
+    height: 2.5rem;
+    width: 10rem;
+    border: none;
+    color: white;
+    border-radius: 10rem;
+    background: linear-gradient(to right, rgba(233, 223, 223, 0.4), rgba(233, 223, 223, 0.4));
+}
+
+.button-cover {
+    text-align: center;
+}
+
+.about-small {
+    font-size: 1rem;
+    color: rgb(139, 122, 117)
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.paragraph-section2 {
+    line-height: 1.5rem;
+    color: rgb(52, 51, 51);
+}
+
+.sub-box {
+    display: flex;
+    width: 100%;
+    margin: 4rem 0;
+}
+
+.box2 {
+    margin-left: 1rem;
+    width: 90%;
+}
+
+.title-2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+.image-container {
+    width: 48%;
+}
+
+.side-box {
+    width: 48%;
+    padding: 0 2rem;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.image-1 {
+    width: 100%;
+}
+
+.section3 {
+    background: rgb(254, 249, 247);
+}
+
+.section3-flex {
+    display: flex;
+    margin-top: 22rem;
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+    justify-content: space-between;
+}
+
+.title {
+    color: rgb(85, 73, 69);
+    margin: 1.5rem 0;
+}
+
+.paragraph-section2 {
+    color: rgb(96, 94, 94);
+}
+
+.icon-2 {
+    font-size: 1.5rem;
+}
+
+.box1 {
+    width: 10%;
+}
+
+.box {
+    width: 4rem;
+    height: 4rem;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(248, 211, 197)
+}
+
+/* Section 3 */
+
+.section4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+}
+
+.section4-box {
+    width: 10rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+
+}
+
+.img-box {
+    width: 100%;
+    filter: brightness(30%);
+}
+
+.title-3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(99, 85, 81);
+}
+
+.top {
+    text-align: center;
+}
+
+.paragraph-4 {
+    color: rgb(121, 119, 118);
+    margin-top: 1.5rem;
+}
+
+.paragraph-5 {
+    color: rgb(121, 119, 118);
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+
+.box-title {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.top {
+    padding-bottom: 4rem;
+}
+
+.section5-box1 {
+    padding: 3rem 1rem;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.2rem rgba(236, 229, 229, 0.4);
+    margin-bottom: 4rem;
+    background: white;
+}
+
+.section5-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.section5 {
+    background: rgb(254, 249, 247);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.circle {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: red;
+}
+
+/* section 5 circle placement */
+
+.e1 {
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    top: -2.75rem;
+    left: 42.5%;
+}
+
+.e2 {
+    position: relative;
+}
+
+
+.e3 {
+    position: relative;
+}
+
+
+
+.e4 {
+    position: relative;
+}
+
+
+.e5 {
+    position: relative;
+}
+
+.e6 {
+    position: relative;
+}
+
+.circle i {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Section 6 */
+
+.section6 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pic-size {
+    width: 49%;
+    height: 30vh;
+    margin: 1rem 0;
+    position: relative;
+}
+
+.image-fit {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mission {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.short {
+    text-align: left;
+    line-height: 1.25rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.background {
+    background: rgba(249, 248, 247, 0.8);
+    margin: 0.5rem 1rem;
+    position: absolute;
+    bottom: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.sec6-small {
+    font-size: 0.75rem;
+    text-align: left;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Section7 */
+
+.section7 {
+    background: linear-gradient(rgba(62, 16, 16, 0.7), rgba(62, 16, 16, 0.6)), url("assets/media/testimonials-bg.jpg") center center no-repeat;
+    background-size: 100% 140%;
+    height: 50vh;
+    color: white;
+}
+
+.testimonial-image {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2px solid rgba(214, 200, 200, 0.4);
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 7rem 0;
+}
+
+.review-test {
+    font-style: italic;
+    line-height: 1rem;
+    margin-top: 1.25rem;
+}
+
+.person-title {
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.small-title {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.bolder {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.e11 {
+    font-size: 1.25rem
+}
+
+/* Section 8 */
+
+
+.section8 {
+    padding-bottom: 3rem;
+}
+
+.extra4 {}
+
+.top {
+    padding: 3rem 0;
+}
+
+.paragraph-4 {
+    line-height: 1.25rem;
+}
+
+
+.small-option2 {
+    height: 3rem;
+    line-height: 3rem;
+    width: 4rem;
+    margin-left: 1rem;
+    align-self: center;
+    border-radius: 2rem;
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.image-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.images {
+    width: 32%;
+    height: 20rem;
+    margin-bottom: 2rem;
+}
+
+.portfolio-image {
+    width: 100%;
+    height: 100%;
+}
+
+/* Section9 */
+
+.section9 {
+    background: rgb(254, 249, 247);
+    padding-bottom: 4rem;
+}
+
+.team-staff {
+    width: 24%;
+    text-align: center;
+    -webkit-box-shadow: 0 0 10px #cfc0c0;
+    box-shadow: 0 0 10px #cfc0c0;
+    padding-bottom: 1rem;
+}
+
+.team-image {
+    width: 100%;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Section 10 */
+
+.tab {
+    width: 24%;
+    height: 40vh;
+    -webkit-box-shadow: 0 0 10px #cfc0c0;
+    box-shadow: 0 0 10px #cfc0c0;
+}
+
+.tab-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    font-weight: bold;
+    background: rgb(248, 248, 248);
+}
+
+.features {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    Justify-content: space-evenly;
+    align-items: center;
+}
+
+.tab-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.span {
+    color: red;
+    font-size: 2rem;
+}
+
+.button-2 {
+    height: 2rem;
+    width: 8rem;
+    border: none;
+    color: white;
+    border-radius: 0.2rem;
+    background: red;
+}
+
+s {
+    color: rgba(152, 137, 137, 0.4);
+}
+
+
+.faq-1 {
+    font-weight: bold;
+}
+
+.question-1 {
+    background: rgb(255, 255, 255);
+    padding: 1rem 1rem;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.flex-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.section11 {
+    background: rgb(254, 249, 247);
+    padding-bottom: 3rem;
+}
+
+.section12-sub1 {
+    display: flex;
+    width: 70rem;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+
+.section12-box {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    padding: 1rem 1rem;
+    width: 32.5%;
+    -webkit-box-shadow: 0 0 10px #cfc0c0;
+    box-shadow: 0 0 10px #cfc0c0;
+}
+
+
+.small-title {
+    font-weight: bold;
+}
+
+.small-address {
+    font-size: 0.75rem;
+}
+
+.section12-circle {
+    width: 4rem;
+    height: 4rem;
+    border: 1px dotted rgb(111, 12, 12, 1);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.section12-sub2 {
+    width: 70rem;
+    padding: 2rem 2rem;
+    margin-bottom: 3rem;
+    -webkit-box-shadow: 0 0 10px #cfc0c0;
+    box-shadow: 0 0 10px #cfc0c0;
+}
+
+.input-1 {
+    width: 100%;
+    padding: 0.1rem 0.4rem;
+    padding-bottom: 0.2rem;
+    border: 1px solid rgba(157, 139, 139, 0.3);
+}
+
+.input-2 {
+    padding: 0.1rem 0.4rem;
+    padding-bottom: 0.2rem;
+    width: 100%;
+    border: 1px solid rgba(157, 139, 139, 0.3);
+}
+
+.input-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.input2-flex {
+    margin-bottom: 1rem;
+}
+
+label {
+    width: 48%;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.1rem 0.4rem;
+    padding-bottom: 0.2rem;
+    border: 1px solid rgba(157, 139, 139, 0.3);
+    resize: none;
+}
+
+.icon-2 {
+    font-size: 1.5rem;
+}
+
+::placeholder {
+    color: rgb(153, 159, 165);
+    font-size: 0.75rem;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.button-3 {
+    height: 3rem;
+    width: 10rem;
+    border: none;
+    color: white;
+    border-radius: 0.2rem;
+    background: red;
+    margin-top: 2rem;
+}
+
+.button-cover {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+.section-footer {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(254, 249, 247);
+    padding: 3rem 3rem;
+}
+
+.extra5 {
+    margin-bottom: 0.5rem;
+}
+
+.title-4 {
+    font-weight: bold;
+}
+
+.re {
+    margin-bottom: 1.5rem;
+}
+
+.title-4 li {
+    margin-bottom: 0.5rem;
+}
+
+.foot-li {
+    margin-bottom: 1rem;
+    list-style-type: square;
+}
+
+.section13 {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.end-icon {
+    width: 2rem;
+    height: 2rem;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.end-icon i {
+    color: white;
+}
+
+.final {
+    display: flex;
+}
+
+b {
+    font-weight: bold;
+}
+
+.rew {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+/* Hover */
+.button-1:hover {
+    background: white;
+    color: red;
+}
+
+.sub-box:hover .box {
+    background: red;
+    color: white;
+}
+
+.img-box:hover {
+    filter: brightness(100%);
+    width: 110%;
+}
+
+.section5-box1:hover .circle {
+    background: white;
+    border: 2px solid red;
+}
+
+.section5-box1:hover i {
+    color: red;
+}
+
+.pic-size:hover .background {
+    background: red;
+    color: white;
+}
+
+.small-option2:hover {
+    background: rgb(252, 241, 236);
+}
+
+.button-2:hover {
+    background: white;
+    color: red;
+    border: 2px solid red;
+}
+
+.faq-1:hover {
+    color: red;
+}
+
+.button-3:hover {
+    background: white;
+    color: red;
+    border: 2px solid red;
+}
+
+.end-icon:hover {
+    background: white;
+    border: 1px solid red;
+}
+
+.end-icon:hover i {
+    color: red;
+}
+
+.drop:hover .drop-options {
+    display: inline;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:768px) {
+
+    .container {
+        max-width: 53rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .section2 {
+        position: static;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .box-1 {
+        margin: 1.5rem 0;
+    }
+
+    .box-2 {
+        width: 40%;
+    }
+
+    .sub-box {
+        margin: 1.5rem 0;
+    }
+
+    .content {
+        margin: 0 1.5rem;
+    }
+
+
+    .section3-flex {
+        display: inline-block;
+        margin-top: 3rem;
+        padding-top: 4rem;
+        padding-bottom: 0rem;
+        justify-content: space-between;
+    }
+
+    .image-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side-box {
+        width: 100%;
+    }
+
+    .section5-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section5-box1 {
+        width: 50%;
+        margin-left: 1rem;
+        justify-content: center;
+    }
+
+    .images {
+        width: 49.5%;
+        margin-bottom: 0.5rem;
+    }
+
+    .image-1 {
+        width: 80%;
+    }
+
+    .box-1 {
+        width: 100%;
+        background: rgb(234, 84, 51);
+        color: white;
+        padding: 1.5rem 1.5rem;
+    }
+
+    .team {
+        flex-wrap: wrap;
+    }
+
+    .team-staff {
+        width: 48%;
+        margin-bottom: 1rem;
+    }
+
+    .tab-flex {
+        flex-wrap: wrap;
+    }
+
+    .tab {
+        width: 48%;
+        margin-bottom: 3rem;
+    }
+
+    .section2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .question-1{
+        max-width:40rem;
+    }
+
+    .section12-sub1{
+        flex-wrap:wrap;
+        justify-content:center;
+
+    }
+    .section12-sub2{
+        width:50rem;
+        margin-bottom:3rem;
+    }
+
+    .section12-box{
+        width:50%;
+        margin-bottom:1.5rem;
+    }
+
+    .section-footer{
+        flex-wrap:wrap;
+    }
+
+    .footsie1{
+        width:49%;
+        margin-bottom:2.5rem;
+    }
+}
+
+@media screen and (max-width:468px) {}
+
+@media screen and (max-width:300px) {}
